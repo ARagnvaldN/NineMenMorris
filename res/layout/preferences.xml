@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Colour settings"
+   android:title="Colour settings" >
+   
+  <ListPreference
+     android:entries="@array/colours"
+     android:entryValues="@array/valueOfColours"
+     android:key="p1col"
+     android:summary="Select the colours of player 1"
+     android:title="Player 1 colour" />
+  
+  <ListPreference
+     android:entries="@array/colours"
+     android:entryValues="@array/valueOfColours"
+     android:key="p2col"
+     android:summary="Select the colours of player 2"
+     android:title="Player 2 colour" />
+  
+ </PreferenceCategory>
+</PreferenceScreen>
